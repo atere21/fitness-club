@@ -60,12 +60,17 @@ function Hero() {
          </div>
          </div>
         <div className='right-h'> 
-        <button className="btn">Join Now</button>
+        <button className="btn">Join Now</button><div/>
 
-        <div className="heart-rate"></div>
-        <img src={heart} alt='hrt' />
-        <span>Heart-Rate </span>
-        <span>116 bpm</span>
+        <div className="heart-rate">
+           <img src={heart} className="heartrate" alt='' />
+            <span>Heart-Rate </span>
+             <span>116 bpm</span>
+        </div>
+        {/* hero-images */}
+
+        <img src={hero_image} alt='' className='hero-image'/>
+        <img src={hero_image_back} alt='' className='hero-image'/>
         </div>
             
          </div>
