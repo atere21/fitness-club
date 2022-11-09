@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+![fitness](https://user-images.githubusercontent.com/106532533/200157172-19c599d2-b0ff-49a2-8f8c-929824c45dca.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
