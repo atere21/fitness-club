@@ -70,7 +70,14 @@ function Hero() {
         {/* hero-images */}
 
         <img src={hero_image} alt='' className='hero-image'/>
-        <img src={hero_image_back} alt='' className='hero-image'/>
+        <img src={hero_image_back} alt='' className='hero-image-back'/>
+        
+        {/* calories */}
+        <div className='calories'>
+            <img src={calories} alt=""/>
+            <span id='burned'>Calories Burned</span>
+            <span id='kcal'>220 kcal</span>
+        </div>
         </div>
             
          </div>

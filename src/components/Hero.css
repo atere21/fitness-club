@@ -90,6 +90,7 @@
 {
     color: white;
     background-color:var(--orange);
+    
 }
 .hero-buttons>:nth-child(2)
 {
@@ -100,10 +101,10 @@
 }
 .right-h >.btn{
     position: absolute;
-    right: 3rem; 
-    top: 2rem; 
+    right: 12rem; 
+    top: 1rem; 
     color: black;
-    gap: 1rem;
+    gap: 5rem;
 }
 .heart-rate{
     display: flex;
@@ -115,7 +116,7 @@
     align-items: start;
     border-radius: 5px;
     position: absolute;
-    right:4rem;
+    right:12rem;
     top: 7rem;
 }
 .heart-rate>img{
@@ -126,5 +127,43 @@
 }
 .heart-rate >:nth-child(3){
     color:white;
+    font-size: 1.5rem;
+}
+.hero-image{
+    position: absolute;
+    top: 10rem;
+    right: 13rem;
+    width: 23rem;
+}
+.hero-image-back{
+    position: absolute;
+    top: 4rem;
+    z-index: -1;
+    right: 25rem;
+}
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 32rem;
+    right: 31rem;
+}
+.calories >img{
+    width: 3rem;
+}
+.calories >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#burned{
+    color: var(--grey);
+}
+#kcal{
+    color: white;
     font-size: 1.5rem;
 }
